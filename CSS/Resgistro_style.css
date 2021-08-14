@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: hsla(0, 68%, 45%, 0.5);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(19, 62%, 58%, 0.4), hsla(14, 85%, 51%, 0.6)), url(../images/comunidad.JPG);
+    /* Chrome 10-25, Safari 5.1-6 */
+    ;
+    background: linear-gradient(to right, hsla(19, 100%, 57%, 0.4), hsla(14, 91%, 49%, 0.6)), url(../images/comunidad.JPG);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+header {
+    width: 100%;
+    height: 120px;
+}
+
+
+nav {
+    background: rgb(169, 169, 169, 0.8);
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 20px 15PX 0;
+    position: fixed;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav>a {
+    color: hsla(14, 91%, 49%, 0.3);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    align-content: center;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+nav>input {
+    background-color: rgb(169, 169, 169, 0.3);
+    font-size: 15px;
+}
+
+.titulos {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulos h1 {
+    font-size: 50px;
+    color: rgb(36, 31, 31);
+    font-family: monospace;
+}
+
+.titulos h2 {
+    font-size: 20px;
+    color: black;
+    font-family: monospace;
+}
+
+
+.form {
+    width: 70%;
+    height: 720px;
+    background: rgba(169, 169, 169, 0.671);
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin-left: 15%;
+    margin-top: 110px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    position:absolute
+}
+
+    form> h2 {
+        margin: 10px 0;
+        padding-bottom: 10px;
+        width: 180px;
+        color: black;
+        border-bottom: 3px solid black}
+
+     label> input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background: none;
+        outline: none;
+        resize: none;
+        border: 0;
+        font-family: 'Montserrat', sans-serif;
+        transition: all .3s;
+        border-bottom: 2px solid black
+    }
+
+    form> label> input:focus {
+        border-bottom: 2px solid black
+    }
+
+    form> label>  #password{
+        background-color: hsla(0, 0%, 66%, 0.55);
+        color: hsla(14, 85%, 51%, 0.7);
+        width:10px;
+    } 
+
+    form> label:before {
+        content: attr(type);
+        display: block;
+        margin: 28px 0 0;
+        font-size: 14px;
+        color: black
+    }
+
+        form> .name{
+            float: left;
+            width: 49%;
+        }
+
+        form> .lastname{
+            float: right;
+            width: 49%;
+        }
+
+        form> .country {
+       float: left;
+       width: 30%;
+        }
+
+        form> .born {
+            float: left;
+            width: 30%;
+        }
+
+        form> .age {
+            width: 30%;
+            float: right;
+        }
+
+        form> .adress{
+            width: 50%;            
+            float: left;
+        }
+
+        form> .cellphone{
+            float: right; 
+            width: 30%;
+        }
+            
+        form> .email{
+        width: 49%;
+        float: left;
+        }
+
+        form> .username
+            {width: 49%;
+             float: right;           
+            }
+        
+            
+        form> .password{
+        width: 49%;
+        float: left;
+        }
+            
+        form> .passwordconf{
+        width: 49%;
+        float: right;
+        }
+
+
+        form > .photo{
+            width: 30%;
+            float: left;
+            }
+    
+        
+    form> button {
+        float: right;
+        padding: 8px 12px;
+        margin-top: 130px;
+        font-family: 'Montserrat', sans-serif;
+        border: 2px solid hsla(19, 62%, 58%, 0.9);
+        background: 0;
+        color: hsla(19, 62%, 58%, 0.7);
+
+    }
+
+    form> button:hover {
+        background: hsla(0, 0%, 66%, 0.6);
+        color: hsla(19, 62%, 58%, 1)
+    }
+
+    form> div {
+        position: absolute;
+        top: -15px;
+        right: -20px;
+        background:hsla(0, 3%, 27%, 0.8);
+        color:hsla(19, 62%, 58%, 0.9);
+        width: 230px;
+        padding: 16px 4px 16px 0;
+        border-radius: 6px;
+        font-size: 13px;
+        box-shadow: 10px 10px 40px -14px #000
+    }
+
+    form> div> span {
+        margin: 10px;
+        color: lightgray;
+    }
+
+    form> div>  span>  a{
+        color: hsla(14, 62%, 68%, 0.9);
+        text-decoration: none;
+    } 
+
+    form> div> span> a:hover{
+        text-decoration: underline;
+        color: darkgray;
+    }
+
+  
+
+.pie {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+    bottom: 0;
+    position: relative;
+
+  }
+  
+  div >footer >ul {
+    padding:0;
+    list-style-type:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    bottom: 0;
+
+  }
+  
+  div >footer >ul >li {
+    padding:0 10px;
+    display:  inline;
+  }
+  
+  div >footer >ul >li >a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  div >footer >ul >li >a:hover {
+    opacity:1;
+  }
+  
+  div >footer > div {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  div >footer >div > a {
+    font-size:24px;
+    width:40px;
+    height:35px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  div >footer >div >a:hover {
+    opacity:0.9;
+  }
+  
+  div> footer> p {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
