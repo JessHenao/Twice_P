@@ -21,7 +21,7 @@ header {
 
 
 nav {
-    background: rgb(169, 169, 169, 0.8);
+    background: hsla(0, 3%, 80%, 0.8);
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
@@ -72,16 +72,14 @@ nav>input {
 }
 
 
-.form {
-    width: 340px;
+form {
+    width: 280px;
     height: 320px;
-    background: rgba(169, 169, 169, 0.671);
-    border-radius: 8px;
-    box-shadow: 0 0 40px -10px #000;
+    background: hsla(0, 3%, 80%, 0.8);
+    border-radius: 30px;
     margin-left: 40%;
-    margin-top: 220px;
+    margin-top: 170px;
     padding: 20px 30px;
-    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     position:absolute
 }
@@ -91,18 +89,15 @@ nav>input {
         padding-bottom: 10px;
         width: 180px;
         color: black;
-        border-bottom: 3px solid black}
+        border-bottom: 4px dotted hsla(19, 62%, 58%, 0.9)
+    }
 
      label> input {
         width: 100%;
         padding: 10px;
-        box-sizing: border-box;
-        background: none;
-        outline: none;
-        resize: none;
+        background: transparent;
         border: 0;
         font-family: 'Montserrat', sans-serif;
-        transition: all .3s;
         border-bottom: 2px solid black
     }
 
@@ -119,9 +114,7 @@ nav>input {
     form> label:before {
         content: attr(type);
         display: block;
-        margin: 28px 0 0;
-        font-size: 14px;
-        color: black
+        margin: 35px 0 0;
     }
 
     form> button {
@@ -146,11 +139,12 @@ nav>input {
         right: -20px;
         background:hsla(0, 3%, 27%, 0.8);
         color:hsla(19, 62%, 58%, 0.9);
-        width: 320px;
+        width: 290px;
         padding: 16px 4px 16px 0;
-        border-radius: 6px;
+        border-radius: 50px;
         font-size: 13px;
-        box-shadow: 10px 10px 40px -14px #000
+        box-shadow: 10px 10px 40px -14px #000;
+        text-align: center;
     }
 
     form> div> span {
@@ -168,70 +162,68 @@ nav>input {
         color: darkgray;
     }
 
-.pie {
-    padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
-    bottom: 0;
-    position: relative;
-
-  }
-  
-  div >footer >ul {
-    padding:0;
-    list-style-type:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    bottom: 0;
-
-  }
-  
-  div >footer >ul >li {
-    padding:0 10px;
-    display:  inline;
-  }
-  
-  div >footer >ul >li >a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-  
-  div >footer >ul >li >a:hover {
-    opacity:1;
-  }
-  
-  div >footer > div {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  div >footer >div > a {
-    font-size:24px;
-    width:40px;
-    height:35px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    border-radius:50%;
-    border:1px solid #ccc;
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
-  }
-  
-  div >footer >div >a:hover {
-    opacity:0.9;
-  }
-  
-  div> footer> p {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:#aaa;
-    margin-bottom:0;
-  }
+    .pie {
+        padding:40px 0;
+        background-color:#ffffff;
+        color:#4b4c4d;
+      }
+      
+      div >footer >ul {
+        padding:0;
+        list-style-type:none;
+        text-align:center;
+        font-size:18px;
+        line-height:1.6;
+        margin-bottom:0;
+    
+      }
+      
+      div >footer >ul >li {
+        padding:0 10px;
+        display:  inline;
+      }
+      
+      div >footer >ul >li >a {
+        color:inherit;
+        text-decoration:none;
+        opacity:0.8;
+      }
+      
+      div >footer >ul >li >a:hover {
+        opacity:1;
+      }
+      
+      div >footer > div {
+        text-align:center;
+        padding-bottom:25px;
+      }
+      
+      div >footer >div > a {
+        font-size:24px;
+        width:40px;
+        height:35px;
+        line-height:40px;
+        display:inline-block;
+        text-align:center;
+        border-radius:50%;
+        border:1px solid #ccc;
+        margin:0 8px;
+        color:inherit;
+        opacity:0.75;
+      }
+      
+      div >footer >div >a:hover {
+        opacity:0.9;
+      }
+      
+      div> footer> p {
+        margin-top:15px;
+        text-align:center;
+        font-size:13px;
+        color:#aaa;
+        margin-bottom:0;
+      }
+      
   
 
 

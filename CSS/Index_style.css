@@ -46,18 +46,16 @@
     position: absolute;
 }
 
-.lado{
+.perfil, .menu {
     float: left;
-    margin-top: 0;
+    margin-top: 0%;
     margin-right: 5%;
-    width: 15%;
-}
-
-.lado > thead> tr> th{
+    width: 18%;
     background-color: hsla(47, 4%, 54%, 0.158);
+    text-align: center;
 }
 
-.lado > thead> tr> th> a{
+.perfil > thead> tr> th> a {
     color: rgba(252, 129, 95, 0.9); 
     font-weight: 300;
     text-decoration: none; 
@@ -65,11 +63,28 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.lado > thead> tr> th> a:hover{
+.perfil, .tips> thead> tr> th> a:hover{
     text-decoration: underline;
     color: darkgray;  
 }
 
+.menu >a {
+    color: rgba(252, 129, 95, 0.9); 
+    font-weight: 300;
+    text-decoration: none; 
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu > a:hover{
+    text-decoration: underline;
+    color: darkgray;  
+}
+
+.menu > label{
+    color: rgba(252, 129, 95, 0.9);
+    font-size: 20px;
+    }
 
 .bienvenida {
     float: right;
@@ -91,34 +106,6 @@
   text-decoration: underline;
   color: darkgray;
   } 
-
-.Menu {
-    float:left;
-    width: 15%;
-    margin-top: 1%;
-    text-align: left;
-    padding: 12px 5px 5px 5px;
-    background-color: hsla(47, 4%, 54%, 0.158);
-}
-
-.Menu > a{
-    color: rgba(252, 129, 95, 0.9); 
-    font-weight: 300;
-    text-decoration: none; 
-    margin-right: 20px;
-    font-size: 23px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Menu > a:hover{
-    text-decoration: underline;
-    color: darkgray;  
-}
-
-.Menu > label{
-color: rgba(252, 129, 95, 0.9);
-font-size: 20px;
-}
 
 .interes{
     width: 30%;
@@ -162,11 +149,6 @@ font-size: 20px;
     color: rgba(252, 129, 95, 0.9);
     text-decoration: none;
     font-size: 17pt;
-} 
-
-.tips > thead > tr> th> a:hover{
-    text-decoration: underline;
-    color: darkgray;
 }
 
 .tips > tbody> tr> td> img{
@@ -211,54 +193,26 @@ font-size: 20px;
     margin-left: 45%;
     margin-right: 45%;}
 
-.img1 {
+.img1, .img2 {
     float: left;
     width: 25%;   
 }
-    .img1 >thead> tr> th> img{
-        width: 100%;
-    }
 
-    .img1 >tbody> tr> td> img{
-        width: 100%;
-    }
-
-.img2 {
-    float: left;
-    width: 25%;  
-}
-    .img2 >thead> tr> th> img{
-        width: 100%;
-    }
-
-    .img2 >tbody> tr> td> img{
+    .img1 .img2 .img3 .img4 .img5 > img{
         width: 100%;
     }
 
 
-.img3{
+.img3, .img4{
     float: left;
     width: 24%;   
 }
-    .img3 >thead> tr> th> img{
-        width: 100%;
-    }
-
-.img4{
-    width: 24%;   
-}
-
-    .img4 >thead> tr> th> img{
-        width: 100%;    
-    }
 
 .img5{
     width: 48%;
 }
 
-    .img5 >thead> tr> th> img{
-        width: 100%;
-    }
+ 
 
 .pie {
     padding:40px 0;
@@ -271,9 +225,7 @@ font-size: 20px;
     list-style-type:none;
     text-align:center;
     font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-
+    line-height:1;
   }
   
   div >footer >ul >li {
@@ -284,7 +236,7 @@ font-size: 20px;
   div >footer >ul >li >a {
     color:inherit;
     text-decoration:none;
-    opacity:0.8;
+    opacity:0.6;
   }
   
   div >footer >ul >li >a:hover {
@@ -304,14 +256,9 @@ font-size: 20px;
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:2px dotted #ccc;
     margin:0 8px;
-    color:inherit;
     opacity:0.75;
-  }
-  
-  div >footer >div >a:hover {
-    opacity:0.9;
   }
   
   div> footer> p {
@@ -319,7 +266,6 @@ font-size: 20px;
     text-align:center;
     font-size:13px;
     color:#aaa;
-    margin-bottom:0;
+    margin-bottom:25px;
   }
   
-

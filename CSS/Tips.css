@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 220px;
+    background: hsla(0, 68%, 45%, 0.5);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(19, 62%, 58%, 0.7), hsla(14, 85%, 51%, 0.7)), url(../images/Logo.JPG);
+    /* Chrome 10-25, Safari 5.1-6 */
+    ;
+    background: linear-gradient(to right, hsla(19, 100%, 57%, 0.5), hsla(14, 91%, 49%, 0.7)), url(../images/Logo.JPG);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    background-size: 100%, 300px;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+nav {
+    background: hsla(0, 3%, 80%, 0.8);
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 15px 20px 15PX 0;
+    position: fixed;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav>a {
+    color: hsla(14, 91%, 49%, 0.3);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    align-content: center;
+}
+
+nav>a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+nav>input {
+    background-color: rgb(169, 169, 169, 0.3);
+    font-size: 15px;
+}
+
+.titulos {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulos h1 {
+    font-size: 50px;
+    color: rgb(36, 31, 31);
+    font-family: monospace;
+}
+
+.titulos h2 {
+    font-size: 20px;
+    color: black;
+    font-family: monospace;
+}
+
+.wave {
+    width: 100%;
+    height: 300px;
+    bottom: 0%;
+    position: absolute;
+}

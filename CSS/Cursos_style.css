@@ -20,7 +20,7 @@ header {
 }
 
 nav {
-    background: rgb(169, 169, 169, 0.8);
+    background: hsla(0, 3%, 80%, 0.8);
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
@@ -107,37 +107,34 @@ section>p {
 span {
     font-size: 23px;
     color: hsla(14, 91%, 49%, 0.4);
-    margin-left: 5%;
+    margin: 0 42% 0 42%;
 }
 
-.curso1 {
+.cursos {
     float: left;
     width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin: 2% 5% 2% 5%;
 }
 
-    .curso1 img {
+    .cursos img {
         float: left;
         width: 40%;
 
     }
 
-    .curso1 p {
+    .cursos p {
         float: right;
         width: 50%;
         text-align: justify;
     }
 
-    .curso1 >h3 {
+    .cursos >h3 {
         float: right;
         width: 50%;
 
     }
 
-    .curso1 p>a{
+    .cursos p>a{
         color: rgba(252, 129, 95, 0.9); 
         font-weight: 300;
         text-decoration: none; 
@@ -146,385 +143,13 @@ span {
         font-family: 'Times New Roman', Times, serif;
     }
 
-    .curso1 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso2 {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso2 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso2 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso2 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso2 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso2 p>a:hover{
+    .cursos p>a:hover{
         text-decoration: underline;
         color: darkgray;  
     }
 
 
-.curso3 {
-    float: left;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso3 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso3 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso3 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso3 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso3 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso4 {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso4 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso4 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso4 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso4 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso4 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso5 {
-    float: left;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso5 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso5 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso5 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso5 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso5 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso6 {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-
-    .curso6 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso6 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso6 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso6 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso6 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso7 {
-    float: left;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso7 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso7 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-    }
-
-    .curso7 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso7 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso7 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso8 {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-    .curso8 img {
-        float: left;
-        width: 40%;
-    }
-
-    .curso8 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-
-    }
-
-    .curso8 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-    
-    .curso8 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso8 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso9 {
-    float: left;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 10%;
-}
-
-    .curso9 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso9 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-
-    }
-
-    .curso9 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso9 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso9 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.curso10 {
-    float: right;
-    width: 40%;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-top: 2%;
-    margin-bottom: 10%;
-}
-
-    .curso10 img {
-        float: left;
-        width: 40%;
-
-    }
-
-    .curso10 p {
-        float: right;
-        width: 50%;
-        text-align: justify;
-
-    }
-
-    .curso10 >h3 {
-        float: right;
-        width: 50%;
-
-    }
-
-    .curso10 p>a{
-        color: rgba(252, 129, 95, 0.9); 
-        font-weight: 300;
-        text-decoration: none; 
-        margin-right: 20px;
-        font-size: 19px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .curso10 p>a:hover{
-        text-decoration: underline;
-        color: darkgray;  
-    }
-
-.pie {
+  .pie {
     padding:40px 0;
     background-color:#ffffff;
     color:#4b4c4d;
@@ -535,9 +160,7 @@ span {
     list-style-type:none;
     text-align:center;
     font-size:18px;
-    line-height:1.6;
-    margin-bottom:0;
-
+    line-height:1;
   }
   
   div >footer >ul >li {
@@ -548,7 +171,7 @@ span {
   div >footer >ul >li >a {
     color:inherit;
     text-decoration:none;
-    opacity:0.8;
+    opacity:0.6;
   }
   
   div >footer >ul >li >a:hover {
@@ -568,14 +191,9 @@ span {
     display:inline-block;
     text-align:center;
     border-radius:50%;
-    border:1px solid #ccc;
+    border:2px dotted #ccc;
     margin:0 8px;
-    color:inherit;
     opacity:0.75;
-  }
-  
-  div >footer >div >a:hover {
-    opacity:0.9;
   }
   
   div> footer> p {
@@ -583,6 +201,5 @@ span {
     text-align:center;
     font-size:13px;
     color:#aaa;
-    margin-bottom:0;
+    margin-bottom:25px;
   }
-  
