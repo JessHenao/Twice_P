@@ -38,10 +38,17 @@ header {
     }
 
     nav>input {
-        background-color: rgb(169, 169, 169, 0.3);
-        font-size: 15px;
-    }
-
+      background-color: transparent;
+      font-size: 15px;
+      border-radius: 50px;
+      border-color: hsla(14, 91%, 49%, 0.3);
+  
+  }
+  
+  nav>button {
+      border-color: hsla(0, 3%, 80%, 0.8) ;
+      background-color: transparent;
+  }
 
     form {
         width: 290px;

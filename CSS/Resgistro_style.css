@@ -43,10 +43,20 @@ nav>a:hover {
     color: grey;
 }
 
+
 nav>input {
-    background-color: rgb(169, 169, 169, 0.3);
+    background-color: transparent;
     font-size: 15px;
+    border-radius: 50px;
+    border-color: hsla(14, 91%, 49%, 0.3);
+
 }
+
+nav>button {
+    border-color: hsla(0, 3%, 80%, 0.8) ;
+    background-color: transparent;
+}
+
 
 .titulos {
     display: flex;

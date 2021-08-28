@@ -49,7 +49,8 @@
 .perfil, .menu {
     float: left;
     margin-top: 0%;
-    margin-right: 5%;
+    margin-right: 2%;
+    margin-left: 3%;
     width: 18%;
     background-color: hsla(47, 4%, 54%, 0.158);
     text-align: center;
@@ -85,6 +86,18 @@
     color: rgba(252, 129, 95, 0.9);
     font-size: 20px;
     }
+
+.menu > input{
+    background-color: transparent;
+    border-radius: 50px;
+    border-color: hsla(14, 85%, 51%, 0.7);
+    width: 80%;
+}
+
+.menu> button{
+    background-color: transparent;
+    border-color: hsla(47, 4%, 54%, 0.158);
+}
 
 .bienvenida {
     float: right;
@@ -134,7 +147,6 @@
 
 .tips{
     float: right;
-    margin-top: 3%;
     margin-right: 5%;
     width: 35%;   
     border-bottom: 1px rgba(252, 129, 95, 0.9);
@@ -145,7 +157,7 @@
 }
 
 .tips > thead> tr> th> a{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     color: rgba(252, 129, 95, 0.9);
     text-decoration: none;
     font-size: 17pt;
@@ -155,6 +167,7 @@
     margin: 4px;
     float: left;
     width: 30%;
+    height: 151px;
 }
 
 .tips > tbody> tr> td> h4{
@@ -162,7 +175,7 @@
     margin-top: 15px;
     color: rgba(252, 129, 95, 0.9);
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 13pt;
 }
 
 .tips > tbody> tr> td> span{
